@@ -5,6 +5,7 @@
 * [Marco Teorico](#Marco-teorico)
   * [Tablas de verdad](#tablas-de-verdad)
   * [Expresión algebraica asociadas al circuito](#Expresión-algebraica-asociadas-al-circuito)
+  * [Mapas de karnaugh](#Mapas-de-karnaugh)
 * [Simulación](#Simulación)
 * [Resultados](#Resultados)
   ***
@@ -17,10 +18,11 @@ Para lograr entender un sumador-restador necesitamos entender sus métodos de an
 ### Tablas de Verdad ###
 Basicamente muestran la salida que tendrá el circuito dependiendo de las entradas que tenga, en este caso se hará una compuerta, donde su tabla de verdad será:\
 <image src="/LAB_Sumador/images/ejem.png" alt="Compuerta para ejemplificar">\
-El cual su tabla de verdad es:\
+El cual su tabla de verdad se muestra acontinuación y nos damos cuenta que si reemplazamos  por un 1 o 0 en las entradas obtenemos esa salida:\
 <image src="/LAB_Sumador/images/TV.png" alt="Tabla de verdad">\
 ### Expresión algebraica asociadas al circuito ###
-Esta tipo de expresión es basicamente como podemos expresar matematicamente
-
-
+Este tipo de expresión es basicamente como podemos expresar matemáticamente nuestro circuito, usando el mismo ejemplo de las tabla de verdad encontramos que su expresión algebraica es: \
+(ABC+ACB), esta expresión se puede obtener mediante los mapas de karnaugh que serán explicados a continuación.
+### Mapas de karnaugh ###
+Es una manera de simplificar las funciones logicas, puede ser tomado como una representación bidimensional de la tabla de verdad para lograr una ecuacion asociada al circuito
 
