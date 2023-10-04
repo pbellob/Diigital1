@@ -5,5 +5,5 @@
 * [Marco Teorico](#Marcoteorico)
 * [Procedimiento](#Procedimiento)
 * 
-**Introducción**\
+##Introducción##
 La electrónica digital se basa en el algebra booleana para desarrollar la comunicación entre
