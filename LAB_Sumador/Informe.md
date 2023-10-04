@@ -6,7 +6,7 @@
   * [Tablas de verdad](#tablas-de-verdad)
   * [Expresión algebraica asociadas al circuito](#Expresión-algebraica-asociadas-al-circuito)
   * [Mapas de karnaugh](#Mapas-de-karnaugh)
-* [Simulación](#Simulación)
+* [Procedimiento](#Procedimiento)
 * [Resultados](#Resultados)
   ***
   
