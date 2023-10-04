@@ -3,7 +3,7 @@
 #### Paola Bello Buitrago, Jose Miguel Sanchez
 * [Introducción](#introducción)
 * [Marco Teorico](#Marco-teorico)\
-  *[Tablas de verdad](#tablas-de-verdad)
+  * [Tablas de verdad](#tablas-de-verdad)
 * [Simulación](#Simulación)
 * [Resultados](#Resultados)
   ***
