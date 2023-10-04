@@ -18,7 +18,7 @@ Para lograr entender un sumador-restador necesitamos entender sus métodos de an
 Basicamente muestran la salida que tendrá el circuito dependiendo de las entradas que tenga, en este caso se hará una compuerta, donde su tabla de verdad será:\
 <image src="/LAB_Sumador/images/ejem.png" alt="Compuerta para ejemplificar">\
 El cual su tabla de verdad es:
-<image src="/LAB_Sumador/images/ejem.png" alt="Tabla de verdad">\
+<image src="/LAB_Sumador/images/TV.png" alt="Tabla de verdad">\
 ### Expresión algebraica asociadas al circuito ###
 Esta tipo de expresión es basicamente como podemos expresar matematicamente
 
