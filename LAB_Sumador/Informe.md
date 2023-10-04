@@ -14,7 +14,7 @@ Al tener las compuertas logicas nos dimos cuenta que son operaciones como la sum
 ## Marco Teorico ##
 Para lograr entender un sumador-restador necesitamos entender sus métodos de análisis, entre ellos está las tablas de verdad , expresión algebraíca asociada al circuito, mapas de karnaugh.
 ### Tablas de Verdad ###
-Basicamente muestran la salida que tendrá el circuito dependiendo de las entradas que tenga, por ejemplo para una compuerta tipo AND (A*B) Su tabla de verdad será:
+Basicamente muestran la salida que tendrá el circuito dependiendo de las entradas que tenga, por ejemplo para una compuerta tipo AND (A*B) Su tabla de verdad será:\
 ![AND](/images/and.jpg)
 
 
