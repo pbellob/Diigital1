@@ -22,7 +22,11 @@ El cual su tabla de verdad se muestra acontinuación y nos damos cuenta que si r
 <image src="/LAB_Sumador/images/TV.png" alt="Tabla de verdad">\
 ### Expresión algebraica asociadas al circuito ###
 Este tipo de expresión es basicamente como podemos expresar matemáticamente nuestro circuito, usando el mismo ejemplo de las tabla de verdad encontramos que su expresión algebraica es: \
-(ABC+ACB), esta expresión se puede obtener mediante los mapas de karnaugh que serán explicados a continuación.
+(ABD+ACB), esta expresión se puede obtener mediante los mapas de karnaugh que serán explicados a continuación.
 ### Mapas de karnaugh ###
-Es una manera de simplificar las funciones logicas, puede ser tomado como una representación bidimensional de la tabla de verdad para lograr una ecuacion asociada al circuito se representa de la siguiente manera para nuestro ejemplo 
+Es una manera de simplificar las funciones logicas, puede ser tomado como una representación bidimensional de la tabla de verdad para lograr una ecuacion asociada al circuito se representa de la siguiente manera para nuestro ejemplo:
+<image src="/LAB_Sumador/images/Mapa.png" alt="Mapa de karnaugh">\
+Como podemos ver se halla las operaciones en donde encontramos un 1, donde en este caso será:/\
+(AB~CD +ABCD)+(ABCD+ABC~D) donde se puede simplificar de esta manera ABD(~C+C)+ABC(D+~D) obteniendo ABD+ABC.\
+
 
