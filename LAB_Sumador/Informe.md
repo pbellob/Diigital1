@@ -24,5 +24,5 @@ El cual su tabla de verdad se muestra acontinuación y nos damos cuenta que si r
 Este tipo de expresión es basicamente como podemos expresar matemáticamente nuestro circuito, usando el mismo ejemplo de las tabla de verdad encontramos que su expresión algebraica es: \
 (ABC+ACB), esta expresión se puede obtener mediante los mapas de karnaugh que serán explicados a continuación.
 ### Mapas de karnaugh ###
-Es una manera de simplificar las funciones logicas, puede ser tomado como una representación bidimensional de la tabla de verdad para lograr una ecuacion asociada al circuito
+Es una manera de simplificar las funciones logicas, puede ser tomado como una representación bidimensional de la tabla de verdad para lograr una ecuacion asociada al circuito se representa de la siguiente manera para nuestro ejemplo 
 
