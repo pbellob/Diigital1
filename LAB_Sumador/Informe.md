@@ -30,7 +30,7 @@ Como podemos ver se halla las operaciones en donde encontramos un 1, donde en es
 (AB~C~D +ABCD)+(ABCD+ABC~D~) donde se puede simplificar de esta manera ABD(~C~+C)+ABC(D+~D~) obteniendo ABD+ABC.\
 ### Procedimiento ###
 Los archivos necesarios para enterder el proceso que hicimos para esta practica está en:/
-[Sumador](LAB_Sumador/Circuitos/Circuitos.zip)
+[Sumador](./Circuitos/Circuitos.zip)
 En principio usaremos el sigiente circuito digital:/
 <image src="/LAB_Sumador/images/Circuito.png" alt="Circuito digital Sumador">\
 Donde los 
