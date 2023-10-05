@@ -29,7 +29,4 @@ Es una manera de simplificar las funciones logicas, puede ser tomado como una re
 Como podemos ver se halla las operaciones en donde encontramos un 1, donde en este caso será:/\
 (AB~C~D +ABCD)+(ABCD+ABC~D~) donde se puede simplificar de esta manera ABD(~C~+C)+ABC(D+~D~) obteniendo ABD+ABC.\
 ### Procedimiento ###
-
-
-
-
+Para esta primera te
