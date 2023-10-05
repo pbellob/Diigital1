@@ -21,16 +21,16 @@ Basicamente muestran la salida que tendrá el circuito dependiendo de las entrad
 El cual su tabla de verdad se muestra acontinuación y nos damos cuenta que si reemplazamos  por un 1 o 0 en las entradas obtenemos esa salida:\
 <image src="/LAB_Sumador/images/TV.png" alt="Tabla de verdad">\
 ### Expresión algebraica asociadas al circuito ###
-Este tipo de expresión es basicamente como podemos expresar matemáticamente nuestro circuito, usando el mismo ejemplo de las tabla de verdad encontramos que su expresión algebraica es: \
+Este tipo de expresión es basicamente como podemos expresar matemáticamente nuestro circuito, usando el mismo ejemplo de las tabla de verdad encontramos que su expresión algebraica es:\
 (ABD+ACB), esta expresión se puede obtener mediante los mapas de karnaugh que serán explicados a continuación.
 ### Mapas de karnaugh ###
-Es una manera de simplificar las funciones logicas, puede ser tomado como una representación bidimensional de la tabla de verdad para lograr una ecuacion asociada al circuito se representa de la siguiente manera para nuestro ejemplo:/
+Es una manera de simplificar las funciones logicas, puede ser tomado como una representación bidimensional de la tabla de verdad para lograr una ecuacion asociada al circuito se representa de la siguiente manera para nuestro ejemplo:\
 <image src="/LAB_Sumador/images/Mapa.png" alt="Mapa de karnaugh">\
 Como podemos ver se halla las operaciones en donde encontramos un 1, donde en este caso será:/\
 (AB~C~D +ABCD)+(ABCD+ABC~D~) donde se puede simplificar de esta manera ABD(~C~+C)+ABC(D+~D~) obteniendo ABD+ABC.\
 ### Procedimiento ###
-Los archivos necesarios para enterder el proceso que hicimos para esta practica está en:/
-[Sumador](./Circuitos/Circuitos.zip)
+Los archivos necesarios para enterder el proceso que hicimos para esta practica está en:\
+[Carpeta comprimida](./Circuitos/Circuitos.zip)\
 En principio usaremos el sigiente circuito digital:/
 <image src="/LAB_Sumador/images/Circuito.png" alt="Circuito digital Sumador">\
-Donde los 
+Donde 
