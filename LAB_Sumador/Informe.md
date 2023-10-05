@@ -30,10 +30,12 @@ Como podemos ver se halla las operaciones en donde encontramos un 1, donde en es
 (AB~C~D +ABCD)+(ABCD+ABC~D~) donde se puede simplificar de esta manera ABD(~C~+C)+ABC(D+~D~) obteniendo ABD+ABC.\
 ### Procedimiento ###
 Los archivos necesarios para enterder el proceso que hicimos para esta practica está en:\
-[Carpeta comprimida](./Circuitos/Sumador)\
+[Carpeta Sumador](./Circuitos/Sumador)\
 En principio usaremos el sigiente circuito digital:\
 <image src="/LAB_Sumador/Circuitos/Sumador/Simulación/paralelladder.svg/" alt="Circuito digital Sumador">\
 Donde cada fullhadder esta conformado por:\
 <image src="/LAB_Sumador/Circuitos/Sumador/Simulación/fulladderbw.png/" alt="Circuito digital Sumador-completo">\
 Y a su vez está conformado por otro circuito que es el medio sumador que esta formado por:\
 <image src="/LAB_Sumador/Circuitos/Sumador/Simulación/halfadder.png/" alt="Circuito digital medio- sumador">\
+Con este circuito digital, la herramienta Digital nos proporciona los analisis necesarios, tales como:\
+Tablas de verdad: Al abrir el archivo [Sumador](./Circuitos/Sumador/paralelladder.dig), al tener el archivo abierto, hay que dirigirse al botón análisis, 
