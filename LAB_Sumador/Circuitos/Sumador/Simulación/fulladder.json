@@ -1,0 +1,264 @@
+{
+  "creator": "Yosys 0.33+6 (git sha1 31ee566ec, x86_64-conda-linux-gnu-cc 11.2.0 -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -fdebug-prefix-map=/root/conda-eda/conda-eda/workdir/conda-env/conda-bld/yosys_1694474244328/work=/usr/local/src/conda/yosys-0.33_11_g31ee566ec -fdebug-prefix-map=/home/desires/miniconda3/envs/digital=/usr/local/src/conda-prefix -fPIC -Os -fno-merge-constants)",
+  "modules": {
+    "fulladder": {
+      "attributes": {
+        "top": "00000000000000000000000000000001",
+        "src": "./paralelladder.v:16.1-39.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "Ci": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "Co": {
+          "direction": "output",
+          "bits": [ 5 ]
+        },
+        "S": {
+          "direction": "output",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+        "$or$./paralelladder.v:38$3": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./paralelladder.v:38.16-38.23"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 7 ],
+            "B": [ 8 ],
+            "Y": [ 5 ]
+          }
+        },
+        "halfadder_i0": {
+          "hide_name": 0,
+          "type": "halfadder",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "./paralelladder.v:26.13-31.4"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Co": "output",
+            "S": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 3 ],
+            "Co": [ 7 ],
+            "S": [ 9 ]
+          }
+        },
+        "halfadder_i1": {
+          "hide_name": 0,
+          "type": "halfadder",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "./paralelladder.v:32.13-37.4"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Co": "output",
+            "S": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "B": [ 9 ],
+            "Co": [ 8 ],
+            "S": [ 6 ]
+          }
+        }
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "./paralelladder.v:17.9-17.10"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "./paralelladder.v:18.9-18.10"
+          }
+        },
+        "Ci": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "./paralelladder.v:19.9-19.11"
+          }
+        },
+        "Co": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "./paralelladder.v:20.10-20.12"
+          }
+        },
+        "S": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "./paralelladder.v:21.10-21.11"
+          }
+        },
+        "s0": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "./paralelladder.v:23.8-23.10"
+          }
+        },
+        "s1": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "./paralelladder.v:24.8-24.10"
+          }
+        },
+        "s2": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "./paralelladder.v:25.8-25.10"
+          }
+        }
+      }
+    },
+    "halfadder": {
+      "attributes": {
+        "src": "./paralelladder.v:6.1-14.10"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "Co": {
+          "direction": "output",
+          "bits": [ 4 ]
+        },
+        "S": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+        "$and$./paralelladder.v:13$2": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./paralelladder.v:13.16-13.21"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 3 ],
+            "Y": [ 4 ]
+          }
+        },
+        "$xor$./paralelladder.v:12$1": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./paralelladder.v:12.15-12.20"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 3 ],
+            "Y": [ 5 ]
+          }
+        }
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "./paralelladder.v:7.9-7.10"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "./paralelladder.v:8.9-8.10"
+          }
+        },
+        "Co": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "./paralelladder.v:9.10-9.12"
+          }
+        },
+        "S": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "./paralelladder.v:10.10-10.11"
+          }
+        }
+      }
+    }
+  }
+}
