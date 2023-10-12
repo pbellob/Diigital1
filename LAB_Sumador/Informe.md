@@ -38,4 +38,6 @@ Donde cada fullhadder esta conformado por:\
 Y a su vez está conformado por otro circuito que es el medio sumador que esta formado por:\
 <image src="/LAB_Sumador/Circuitos/Sumador/Simulación/halfadder.png/" alt="Circuito digital medio- sumador">\
 Con este circuito digital, la herramienta Digital nos proporciona los analisis necesarios, tales como:\
-Tablas de verdad: Al abrir el archivo [Sumador](./Circuitos/Sumador/paralelladder.dig), al tener el archivo abierto, hay que dirigirse al botón análisis, 
+Tablas de verdad: Al abrir el archivo [Sumador](./Circuitos/Sumador/paralelladder.dig), al tener el archivo abierto, hay que dirigirse al botón análisis, en esta página aparece la tabla de verdad y junto a ello también se podrá encontrarlos Mapas de Karnaught que aparecerá en oprimiendo el botón F9, al abrir el analisis también aparece la ecuación relacionada con el sumador.\
+Simulación: 
+
