@@ -7,6 +7,7 @@
   * [Expresión algebraica asociadas al circuito](#Expresión-algebraica-asociadas-al-circuito)
   * [Mapas de karnaugh](#Mapas-de-karnaugh)
 * [Procedimiento](#Procedimiento)
+  * [Simulación](#Simulación)
 * [Resultados](#Resultados)
   ***
   
@@ -39,5 +40,6 @@ Y a su vez está conformado por otro circuito que es el medio sumador que esta f
 <image src="/LAB_Sumador/Circuitos/Sumador/Simulación/halfadder.png/" alt="Circuito digital medio- sumador">\
 Con este circuito digital, la herramienta Digital nos proporciona los analisis necesarios, tales como:\
 Tablas de verdad: Al abrir el archivo [Sumador](./Circuitos/Sumador/paralelladder.dig), al tener el archivo abierto, hay que dirigirse al botón análisis, en esta página aparece la tabla de verdad y junto a ello también se podrá encontrarlos Mapas de Karnaught que aparecerá en oprimiendo el botón F9, al abrir el analisis también aparece la ecuación relacionada con el sumador.\
-Simulación: 
+#### Simulación: ####
+Para la simulación en digital usamos la herramienta test, para verificar que efectivamente el sumador funciona, se hará en este caso, elegimos 16 pruebas al azar de suma de dos números para que de esta manera se certifique que el sumador funciona de manera perfecta
 
