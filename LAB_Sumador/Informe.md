@@ -7,8 +7,8 @@
   * [Expresión algebraica asociadas al circuito](#Expresión-algebraica-asociadas-al-circuito)
   * [Mapas de karnaugh](#Mapas-de-karnaugh)
 * [Procedimiento](#Procedimiento)
-  * [Simulación y casos de prueba (Digital)](#Simulación&casosprueba)
-  * [Simulación y casos de prueba (iverilog y gtkwave)](#Simulación&casosprueba)
+  * [Simulación y casos de prueba (Digital)](#Simulación&casospruebaDigital)
+  * [Simulación y casos de prueba (iverilog y gtkwave)](#Simulación&casospruebaive&gtk)
 * [Resultados](#Resultados)
   ***
   
