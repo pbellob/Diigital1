@@ -44,5 +44,5 @@ Tablas de verdad: Al abrir el archivo [Sumador](./Circuitos/Sumador/paralelladde
 Para la simulación en digital usamos la herramienta test, para verificar que efectivamente el sumador funciona, se hará en este caso, elegimos 16 pruebas al azar de suma de dos números para que de esta manera se certifique que el sumador funciona de manera perfecta.\
 <image src="/LAB_Sumador/images/test.png" alt="Test">\
 A continuación también se obtiene en la simulación con una simulación de esta señal:
-<image src="/LAB_Sumador/images/datos_prueba.png" alt="Tabla">\
+<image src="/LAB_Sumador/images/Datos_prueba.png" alt="Tabla">\
 
