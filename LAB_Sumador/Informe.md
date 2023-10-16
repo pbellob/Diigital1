@@ -11,7 +11,7 @@
     * [Simulación y casos de prueba (Digital)](#Simulación-y-casos-de-prueba-digital)
     * [Simulación y casos de prueba (iverilog y gtkwave)](#Simulación-y-casos-de-prueba-iverilog-y-gtkwave)
   * [Sumador Restador](#Sumador-restador)
-    * Simulación (Digital)](#Simulación-digital)
+    * [Simulación (Digital)](#Simulación-digital)
     * [Simulación (iverilog y gtkwave)](#Simulación-iverilog-y-gtkwave)
 * [Resultados](#Resultados)
   ***
@@ -56,3 +56,6 @@ A continuación se  mostrará la simulación de iverilog, estos archivos se encu
 Para empezar la simulación debemos primero abrir el archivo [sumador completo](./Circuitos/Sumador/paralelladder_tb.v) el cual es el archivo donde está configurada la simulación que deseamos hacer, es decir los casos de prueba. Al usar el comando para poder generar el archivo [simulador-vvp](./Circuitos/Sumador/top.vvp) este es el que nos va ayudar a poder hacer la simulación por gtkwave.\ El archivo vvp, este genera otro archivo tipo vcd que en este caso se llama [simulador_vcd](./Circuitos/Sumador/top.vcd), ya con este archivo y ahora ejecutamos gtkwave wl cual nos presenta estas dos pruebas para nuestro sumador.\ <image src="/LAB_Sumador/images/Exportable gtkwave 1.png" alt="Test_gtkwave">\
 <image src="/LAB_Sumador/images/Exportable gtkwave 2.png" alt="Test">\
 De esta manera se termina la simulación del sumador completo.\
+### Sumador Restador ###
+### Simulación (Digital): ###
+### Simulación (iverilog y gtkwave): ###
