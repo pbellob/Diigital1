@@ -12,7 +12,7 @@
     * [Simulación y casos de prueba (iverilog y gtkwave)](#Simulación-y-casos-de-prueba-iverilog-y-gtkwave)
   * [Sumador Restador](#Sumador-restador)
     * [Simulación (iverilog y gtkwave)](#Simulación-iverilog-y-gtkwave)
-* [Resultados](#Resultados)
+* [Conclusiones](#Conclusiones)
   ***
   
 ## Introducción ##
@@ -60,9 +60,9 @@ Los archivos necesarios para entender el proceso que hicimos para esta practica 
 [Carpeta Sumador](./Circuitos/Sumador_restador(1).zip)\
 A continuación se  mostrará la simulación de iverilog, estos archivos se encuentran en la [carpeta sumador](./Circuitos/Sumador-restador)
 ### Simulación (iverilog y gtkwave): ###
-Para empezar la simulación debemos primero abrir el archivo [sumador completo](./Circuitos/Sumador-restador/suma_resta_tb.v) el cual es el archivo donde está configurada la simulación que deseamos hacer, es decir los casos de prueba. Al igual que el sumador se debe generar el comando para que se genere el documento vvp [simulador-vvp](./Circuitos/Sumador-restador/top.vvp) dando el archivo que necesitamos para poder simularlo en gtkwave.\ Este archivo tipo vvp, genera otro archivo tipo vcd que en este caso se llama [top.vcd](./Circuitos/Sumador-restador/top.vcd), ya con este archivose ejecutará gtkwave el cual nos presenta estas dos pruebas para nuestro sumador.\ <image src="/LAB_Sumador/Circuitos/Sumador/Simulación/a.png" alt="Test_gtkwave">\
-<image src="/LAB_Sumador/Circuitos/Sumador/Simulación/b.png" alt="Test">\
-### Conclusión ###
+Para empezar la simulación debemos primero abrir el archivo [sumador completo](./Circuitos/Sumador-restador/suma_resta_tb.v) el cual es el archivo donde está configurada la simulación que deseamos hacer, es decir los casos de prueba. Al igual que el sumador se debe generar el comando para que se genere el documento vvp [simulador-vvp](./Circuitos/Sumador-restador/top.vvp) dando el archivo que necesitamos para poder simularlo en gtkwave.\ Este archivo tipo vvp, genera otro archivo tipo vcd que en este caso se llama [top.vcd](./Circuitos/Sumador-restador/top.vcd), ya con este archivose ejecutará gtkwave el cual nos presenta estas dos pruebas para nuestro sumador.\ <image src="/LAB_Sumador/Circuitos/Sumador-restador/a.png" alt="Test_gtkwave">\
+<image src="/LAB_Sumador/Circuitos/Sumador-restador/b.png" alt="Test">\
+### Conclusiones ###
 * En esta práctica se pudo concluir que efectivamente el circuito desarrollado cumple las simulaciones y los casos de pruebas indicados para que pudieramos decir que es un sumador y un sumador-restador.
 * Para el restador nos damos cuenta que la resta se puede considerar una "suma" la diferencia radicará en el c_out, pero se su construcción se puede basar en un sumador.
 * Las herramientas usadas para esta práctica, son muy buenas para desarrollar una mayor compresión de los sumadores y su logica, relacionando las ondas, las tablas y las matematicas necesarias para avanzar e ir desarrollando conocimientos más especificos.
