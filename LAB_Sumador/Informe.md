@@ -47,6 +47,8 @@ Para la simulación en digital usamos la herramienta test, para verificar que ef
 A continuación también se obtiene en la simulación con una simulación de esta señal:\
 <image src="/LAB_Sumador/images/Datos_prueba.png" alt="Tabla">
 ### Simulación y casos de prueba (iverilog y gtkwave): ###
+A continuación se  mostrará la simulación de iverilog, estos archivos se encuentran en la [carpeta sumador](./Circuitos/Sumador)
+Para empezar la simulación debemos primero abrir el archivo [sumador completo](./Circuitos/Sumador/paralelladder_tb.v) el cual es el archivo donde está configurada la simulación que deseamos hacer, es decir los casos de prueba. Al usar el comando para poder generar el archivo [simulador-vvp](./Circuitos/Sumador/top.vvp) este es el que nos va ayudar a poder hacer la simulación por gtkwave.\
 
 
 
