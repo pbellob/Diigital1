@@ -53,8 +53,8 @@ A continuación también se obtiene en la simulación con una simulación de est
 <image src="/LAB_Sumador/images/Datos_prueba.png" alt="Tabla">
 ### Simulación y casos de prueba (iverilog y gtkwave): ###
 A continuación se  mostrará la simulación de iverilog, estos archivos se encuentran en la [carpeta sumador](./Circuitos/Sumador)
-Para empezar la simulación debemos primero abrir el archivo [sumador completo](./Circuitos/Sumador/paralelladder_tb.v) el cual es el archivo donde está configurada la simulación que deseamos hacer, es decir los casos de prueba. Al usar el comando para poder generar el archivo [simulador-vvp](./Circuitos/Sumador/top.vvp) este es el que nos va ayudar a poder hacer la simulación por gtkwave.\ El archivo vvp, este genera otro archivo tipo vcd que en este caso se llama [simulador_vcd](./Circuitos/Sumador/top.vcd), ya con este archivo y ahora ejecutamos gtkwave wl cual nos presenta estas dos pruebas para nuestro sumador.\ <image src="LAB_Sumador/Circuitos/Sumador/Exportable gtkwave 1.png" alt="Test_gtkwave">\
-<image src="LAB_Sumador/Circuitos/Sumador/Exportable gtkwave 2.png" alt="Test">\
+Para empezar la simulación debemos primero abrir el archivo [sumador completo](./Circuitos/Sumador/paralelladder_tb.v) el cual es el archivo donde está configurada la simulación que deseamos hacer, es decir los casos de prueba. Al usar el comando para poder generar el archivo [simulador-vvp](./Circuitos/Sumador/top.vvp) este es el que nos va ayudar a poder hacer la simulación por gtkwave.\ El archivo vvp, este genera otro archivo tipo vcd que en este caso se llama [simulador_vcd](./Circuitos/Sumador/top.vcd), ya con este archivo y ahora ejecutamos gtkwave wl cual nos presenta estas dos pruebas para nuestro sumador.\ <image src="LAB_Sumador/Circuitos/Sumador/Simulación/gtkwave_1.png" alt="Test_gtkwave">\
+<image src="LAB_Sumador/Circuitos/Sumador/Simulación/gtkwave_2.png" alt="Test">\
 De esta manera se termina la simulación del sumador completo.\
 ### Sumador Restador ###
 ### Simulación (Digital): ###
