@@ -7,6 +7,7 @@
   * [Expresión algebraica asociadas al circuito](#Expresión-algebraica-asociadas-al-circuito)
   * [Mapas de karnaugh](#Mapas-de-karnaugh)
 * [Procedimiento](#Procedimiento)
+  * [Sumador Completo] (#Sumador_completo)
   * [Simulación y casos de prueba (Digital)](#Simulación-y-casos-de-prueba-digital)
   * [Simulación y casos de prueba (iverilog y gtkwave)](#Simulación-y-casos-de-prueba-iverilog-y-gtkwave)
 * [Resultados](#Resultados)
@@ -31,6 +32,7 @@ Es una manera de simplificar las funciones logicas, puede ser tomado como una re
 Como podemos ver se halla las operaciones en donde encontramos un 1, donde en este caso será:/\
 (AB~C~D +ABCD)+(ABCD+ABC~D~) donde se puede simplificar de esta manera ABD(~C~+C)+ABC(D+~D~) obteniendo ABD+ABC.\
 ### Procedimiento ###
+### Sumador Completo ###
 Los archivos necesarios para enterder el proceso que hicimos para esta practica está en:\
 [Carpeta Sumador](./Circuitos/Sumador)\
 En principio usaremos el sigiente circuito digital:\
@@ -48,8 +50,6 @@ A continuación también se obtiene en la simulación con una simulación de est
 <image src="/LAB_Sumador/images/Datos_prueba.png" alt="Tabla">
 ### Simulación y casos de prueba (iverilog y gtkwave): ###
 A continuación se  mostrará la simulación de iverilog, estos archivos se encuentran en la [carpeta sumador](./Circuitos/Sumador)
-Para empezar la simulación debemos primero abrir el archivo [sumador completo](./Circuitos/Sumador/paralelladder_tb.v) el cual es el archivo donde está configurada la simulación que deseamos hacer, es decir los casos de prueba. Al usar el comando para poder generar el archivo [simulador-vvp](./Circuitos/Sumador/top.vvp) este es el que nos va ayudar a poder hacer la simulación por gtkwave.\
-
-
-
-
+Para empezar la simulación debemos primero abrir el archivo [sumador completo](./Circuitos/Sumador/paralelladder_tb.v) el cual es el archivo donde está configurada la simulación que deseamos hacer, es decir los casos de prueba. Al usar el comando para poder generar el archivo [simulador-vvp](./Circuitos/Sumador/top.vvp) este es el que nos va ayudar a poder hacer la simulación por gtkwave.\ El archivo vvp, este genera otro archivo tipo vcd que en este caso se llama [simulador_vcd](./Circuitos/Sumador/top.vcd), ya con este archivo y ahora ejecutamos gtkwave wl cual nos presenta estas dos pruebas para nuestro sumador.\ <image src="/LAB_Sumador/images/Exportable gtkwave 1.png" alt="Test_gtkwave">\
+<image src="/LAB_Sumador/images/Exportable gtkwave 2.png" alt="Test">\
+De esta manera se termina la simulación del sumador completo.\
