@@ -8,8 +8,8 @@
   * [Mapas de karnaugh](#Mapas-de-karnaugh)
 * [Procedimiento](#Procedimiento)
   * [Sumador Completo](#Sumador-completo)
-  * [Simulación y casos de prueba (Digital)](#Simulación-y-casos-de-prueba-digital)
-  * [Simulación y casos de prueba (iverilog y gtkwave)](#Simulación-y-casos-de-prueba-iverilog-y-gtkwave)
+  * * [Simulación y casos de prueba (Digital)](#Simulación-y-casos-de-prueba-digital)
+  * * [Simulación y casos de prueba (iverilog y gtkwave)](#Simulación-y-casos-de-prueba-iverilog-y-gtkwave)
 * [Resultados](#Resultados)
   ***
   
