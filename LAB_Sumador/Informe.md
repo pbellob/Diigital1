@@ -65,5 +65,5 @@ Para empezar la simulación debemos primero abrir el archivo [sumador completo](
 ### Conclusiones ###
 * En esta práctica se pudo concluir que efectivamente el circuito desarrollado cumple las simulaciones y los casos de pruebas indicados para que pudieramos decir que es un sumador y un sumador-restador.
 * Para el restador nos damos cuenta que la resta se puede considerar una "suma" la diferencia radicará en el c_out, pero se su construcción se puede basar en un sumador.
-* Las herramientas usadas para esta práctica, son muy buenas para desarrollar una mayor compresión de los sumadores y su logica, relacionando las ondas, las tablas y las matematicas necesarias para avanzar e ir desarrollando conocimientos más especificos.
+* Las herramientas usadas para esta práctica, son muy buenas para desarrollar una mayor comprensión de los sumadores y su logica, relacionando las ondas, las tablas y las matematicas necesarias para avanzar e ir desarrollando conocimientos más especificos.
 
