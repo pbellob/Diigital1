@@ -30,6 +30,8 @@ Este fue el resultado de la implementación del proyecto.
 ![Implementación](Implementacion.jpeg)
 y este fue el diseño que se implementó:
 ![Diseño](Mapa.jpeg)
+y la implementación de diseño:
+https://youtu.be/jPZK3ZmsXpM
 
 ## Metodología
 
