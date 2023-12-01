@@ -39,177 +39,177 @@ Revisemos las funciones que se usaron para llevar a cabo este proyecto:
 
 •	Top
 
-![](media/image1.jpeg){width="5.931182195975503in" height="1.7048020559930008in"}
+![](media/image1.jpeg)
 
 En el top se encuentra el proyecto condensado ya con todas las funciones, este es el que se sube a la FPGA que lo implementa.
 
 •	sensor2
 
-![](media/image2.jpeg){width="5.016666666666667in" height="2.0718700787401576in"}
+![](media/image2.jpeg)
 
 Este sistema es para usar el sensor de proximidad y trabajar con su funcionamiento para tomar el dato de la distancia en una base numérica. Aunque también tiene implementaciones en actuadores, como el buzzer y los leds.
 
 •	relojC
 
-![](media/image3.jpeg){width="5.492938538932633in" height="2.3229046369203847in"}
+![](media/image3.jpeg)
 
 •	cntr
 
-![](media/image4.jpeg){width="5.669491469816273in" height="1.9840277777777777in"}
+![](media/image4.jpeg)
 
 •	divFl
 
-![](media/image5.jpeg){width="6.136587926509186in" height="1.0692082239720035in"}
+![](media/image5.jpeg)
 
 Divisor de frecuencia realizado con 12 FF tipo D.
 
 •	tpulso
 
-![](media/image6.jpeg){width="6.136474190726159in" height="1.8997178477690289in"}
+![](media/image6.jpeg)
 
 •	distancia
 
-![](media/image7.jpeg){width="2.7618055555555556in" height="2.8640616797900265in"}
+![](media/image7.jpeg)
 
 •	cntr4
 
-![](media/image8.jpeg){width="6.1375in" height="2.2in"}
+![](media/image8.jpeg)
 
 •	Nollego
 
-![](media/image9.jpeg){width="6.1375in" height="1.75in"}
+![](media/image9.jpeg)
 
 •	F.alc
 
-![](media/image10.jpeg){width="6.1375in" height="1.1in"}
+![](media/image10.jpeg)
 
 •	9bitsToBcd
 
-![](media/image11.jpeg){width="6.1375in" height="1.1916666666666667in"}
+![](media/image11.jpeg)
 
 Para realizar el conversor a BCD se necesita de un sumador completo implementado en el subsistema bitToBcd.
 
 •	bitsToBcd
 
-![](media/image12.jpeg){width="3.475in" height="2.775in"}
+![](media/image12.jpeg)
 
 •	Suma_resta
 
-![](media/image13.jpeg){width="2.1666666666666665in" height="2.908333333333333in"}
+![](media/image13.jpeg)
 
 •	Sumres
 
-![](media/image14.jpeg){width="2.1083333333333334in" height="2.9166666666666665in"}
+![](media/image14.jpeg)
 
 •	Fracción
 
-![](media/image15.jpeg){width="2.9166666666666665in" height="2.9166666666666665in"}
+![](media/image15.jpeg)
 
 •	Buzzer
 
-![](media/image16.jpeg){width="4.191666666666666in" height="2.825in"}
+![](media/image16.jpeg)
 
 •	La
 
-![](media/image17.jpeg){width="5.641666666666667in" height="2.7083333333333335in"}
+![](media/image17.jpeg)
 
 •	Frecuency
 
-![](media/image18.jpeg){width="2.841666666666667in" height="2.875in"}
+![](media/image18.jpeg)
 
 •	Si
 
-![](media/image19.jpeg){width="5.625in" height="1.9333333333333333in"}
+![](media/image19.jpeg)
 
 •	Línea
 
-![](media/image20.jpeg){width="3.558333333333333in" height="2.8583333333333334in"}
+![](media/image20.jpeg)
 
 •	Eq
 
-![](media/image21.jpeg){width="5.633333333333334in" height="1.2166666666666666in"}
+![](media/image21.jpeg)
 
 •	Hide
 
-![](media/image22.jpeg){width="3.175in" height="2.725in"}
+![](media/image22.jpeg)
 
 •	Ctr
 
-![](media/image23.jpeg){width="5.258333333333334in" height="1.2916666666666667in"}
+![](media/image23.jpeg)
 
 •	Seg7
 
-![](media/image24.jpeg){width="1.5in" height="2.933333333333333in"}
+![](media/image24.jpeg)
 
 •	Led_h
 
-![](media/image25.jpeg){width="3.966666666666667in" height="2.7666666666666666in"}
+![](media/image25.jpeg)
 
 •	Seg
 
-![](media/image26.jpeg){width="4.775in" height="2.6666666666666665in"}
+![](media/image26.jpeg)
 
 •	cuarto_s
 
-![](media/image27.jpeg){width="5.9in" height="2.2916666666666665in"}
+![](media/image27.jpeg)
 
 •	counting
 
-![](media/image28.jpeg){width="4.125in" height="2.85in"}
+![](media/image28.jpeg)
 
 •	motor
 
-![](media/image29.jpeg){width="4.7in" height="2.775in"}
+![](media/image29.jpeg)
 
 •	ms20
 
-![](media/image30.jpeg){width="5.166666666666667in" height="0.8916666666666667in"}
+![](media/image30.jpeg)
 
 •	a0
 
-![](media/image31.jpeg){width="4.966666666666667in" height="1.1166666666666667in"}
+![](media/image31.jpeg)
 
 •	a90
 
-![](media/image32.jpeg){width="4.975in" height="1.075in"}
+![](media/image32.jpeg)
 
 •	precio2
 
-![](media/image33.jpeg){width="6.008333333333334in" height="1.725in"}
+![](media/image33.jpeg)
 
 •	9bitsToBcd
 
-![](media/image11.jpeg){width="5.966666666666667in" height="0.9833333333333333in"}
+![](media/image11.jpeg)
 
 •	bitsToBcd
 
-![](media/image12.jpeg){width="3.35in" height="2.658333333333333in"}
+![](media/image12.jpeg)
 
 •	Suma_resta
 
-![](media/image13.jpeg){width="2.0in" height="2.825in"}
+![](media/image13.jpeg)
 
 •	Sumres
 
-![](media/image14.jpeg){width="1.8416666666666666in" height="2.8916666666666666in"}
+![](media/image14.jpeg)
 
 •	11bitsToBcd
 
-![](media/image34.jpeg){width="5.991666666666666in" height="1.0166666666666666in"}
+![](media/image34.jpeg)
 
 •	bitsToBcd
 
-![](media/image12.jpeg){width="3.408333333333333in" height="2.6416666666666666in"}
+![](media/image12.jpeg)
 
 •	Suma_resta
 
-![](media/image13.jpeg){width="2.1083333333333334in" height="2.8333333333333335in"}
+![](media/image13.jpeg)
 
 •	Sumres
 
-![](media/image14.jpeg){width="2.0083333333333333in" height="2.908333333333333in"}
+![](media/image14.jpeg)
 
 •	guarda
 
-![](media/image35.jpeg){width="5.941666666666666in" height="2.191666666666667in"}
+![](media/image35.jpeg)
 
