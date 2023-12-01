@@ -1,9 +1,9 @@
-Sistema de Parqueadero Automatizado
+#Sistema de Parqueadero Automatizado
 
-Paola Alejandra Bello Buitrago- Jose Miguel Sanchez Vargas- Juan Daniel Nova Ruiz
+###Paola Alejandra Bello Buitrago- Jose Miguel Sanchez Vargas- Juan Daniel Nova Ruiz
 
 
-Descripción y Contexto del Problema
+##Descripción y Contexto del Problema
 
 En el mundo moderno, los parqueaderos se han convertido en una necesidad en casi todos los lugares, desde centros comerciales hasta residencias y oficinas. Sin embargo, el proceso de estacionamiento puede ser estresante y desafiante, especialmente en espacios reducidos o en horas de alto flujo.
 
@@ -26,7 +26,7 @@ Con la ayuda de la electrónica digital, planteamos un sistema que utiliza senso
 •	Una puerta automática movida por un servomotor que se basa en que tan cerca está el automóvil para ingresar y cuando sale, esta misma llevará unos leds para informar el estado del parqueadero, si está o no desocupado.
 
 
-Metodología
+##Metodología
 
 Para llevar a cabo este proyecto, utilizaremos Digital (una herramienta que modela sistemas digitales) para convertir nuestros diseños a Verilog (un lenguaje de descripción de hardware utilizado en la electrónica digital). A medida que avanzamos, adaptamos cada parte del proyecto de acuerdo con los conceptos y técnicas aprendidos en la materia de Electrónica Digital 1.
 
