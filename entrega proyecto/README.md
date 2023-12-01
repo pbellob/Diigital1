@@ -26,7 +26,10 @@ Con la ayuda de la electrónica digital, planteamos un sistema que utiliza senso
 •	Una puerta automática movida por un servomotor que se basa en que tan cerca está el automóvil para ingresar y cuando sale, esta misma llevará unos leds para informar el estado del parqueadero, si está o no desocupado.
 
 ## Implementación 
-![Infrarojo](modulo.png)
+Este fue el resultado de la implementación del proyecto.
+![Implementación](Implementacion.jpeg)
+y este fue el diseño que se implementó:
+![Diseño](Mapa.jpeg)
 
 ## Metodología
 
