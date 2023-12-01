@@ -3,6 +3,9 @@
 ### Paola Alejandra Bello Buitrago- Jose Miguel Sanchez Vargas- Juan Daniel Nova Ruiz
 
 
+![Banner](banner.jpeg)
+
+
 ## Descripción y Contexto del Problema
 
 En el mundo moderno, los parqueaderos se han convertido en una necesidad en casi todos los lugares, desde centros comerciales hasta residencias y oficinas. Sin embargo, el proceso de estacionamiento puede ser estresante y desafiante, especialmente en espacios reducidos o en horas de alto flujo.
