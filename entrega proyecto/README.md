@@ -196,6 +196,7 @@ Para realizar el conversor a BCD se necesita de un sumador completo implementado
 
 •	Sumres
 
+
 ![](media/image14.jpeg)
 
 •	11bitsToBcd
@@ -217,4 +218,8 @@ Para realizar el conversor a BCD se necesita de un sumador completo implementado
 •	guarda
 
 ![](media/image35.jpeg)
+
+## Simulación 
+Este caso son demasiados archivos para generar la simulación por lo que es este caso se hizo la simulación del sensor que es lo más importante en digital obtrniendo:
+![Digital](Simulaciòn_sensor.png)
 
