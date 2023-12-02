@@ -220,6 +220,6 @@ Para realizar el conversor a BCD se necesita de un sumador completo implementado
 ![](media/image35.jpeg)
 
 ## Simulación 
-Este caso son demasiados archivos para generar la simulación por lo que es este caso se hizo la simulación del sensor que es lo más importante en digital obtrniendo:
-![Digital](Simulaciòn_sensor.png)
+Este caso son demasiados archivos para generar la simulación por lo que es este caso se hizo la simulación del sensor que es lo más importante en digital obteniendo:
+![Digital](media/Simulaciòn_sensor.png)
 
